@@ -100,7 +100,7 @@ NAME      LABELS    SELECTOR              IP          PORT(S)
 nginx     <none>    run=nginx             <ip-addr>   80/TCP
 ```
 
-If <ip-addr> is empty, try below:
+If [ip-addr] is empty, try below:
 
 ```sh
 kubectl expose svc
@@ -119,7 +119,7 @@ Hit the webserver:
 curl <insert-ip-from-above-here>
 ```
 
-<For OS X> Note that you will need run this curl command on your boot2docker VM.
+[OS X] Note that you will need run this curl command on your boot2docker VM.
 
 ### A note on turning down your cluster
 
